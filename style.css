@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.containerFi{
+    width: 98.8vw;
+    height: 100vh;
+    background-image: url("https://www.nationwidevehiclecontracts.co.uk/m/0/company-cars.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto Slab', serif;
+    display: flex; 
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    word-spacing: 10px;
+    border: 1px solid white;
+}
+.containerFi h1{
+    height: max-content;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: white;
+    color: black;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+.container1{
+    display: flex;
+    height: 115vh;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+.text2{
+    font-family: 'Roboto Slab', serif;
+    height: max-content;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+    text-align: center;
+    background-color: #282e34;
+    color: white;
+    word-spacing: 0.4vw;
+    font-size: large;
+    font-family: 'Roboto Slab', serif;
+    line-height: 29px;
+}
+.body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 115vh;
+    background-color:  #e5e9ed;
+}
+.body div{
+    height: 60vh;
+    width: 45vw;
+    background-color: white;
+}
+.cars-img1{
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    background-image: url("https://images.unsplash.com/photo-1605270396307-d00ba5cda1d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80");
+    background-size: cover;
+}
+.cars-img2{
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    background-image: url("https://stimg.cardekho.com/images/carexteriorimages/930x620/Hyundai/Alcazar/8459/1624013603874/front-left-side-47.jpg?tr=w-880,h-495");
+    background-size: cover;
+}
+.cars-img3{
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    background-image: url("https://stimg.cardekho.com/images/carexteriorimages/930x620/Toyota/Fortuner/8241/1609921660871/front-left-side-47.jpg?tr=w-880,h-495");
+    background-size: cover;
+}
+.cars-img4{
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    background-image: url("https://stimg.cardekho.com/images/carexteriorimages/930x620/Kia/EV6/8947/1654159762071/front-left-side-47.jpg?tr=w-880,h-495");
+    background-size: cover;
+}
+.cars-img5{
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    background-image: url("https://stimg.cardekho.com/images/carexteriorimages/930x620/Mahindra/Scorpio-N/9174/1656388358334/front-left-side-47.jpg?tr=w-880,h-495");
+    background-size: cover;
+}
+.cars-img6{
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    background-image: url("https://stimg.cardekho.com/images/carexteriorimages/930x620/Tata/Nexon/7384/1614326304397/front-left-side-47.jpg?tr=w-880,h-495");
+    background-size: cover;
+}
+.review{
+    height: 35vh;
+    width: 45vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid black;
+    line-height: 25px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 35px;
+
+}
+.revTag{
+    color: tomato;
+}
+.revTag:hover{
+    font-size: 220%;
+    color: rgb(124, 112, 231);
+}
+.carrev{
+    color: yellowgreen;
+}
+.cars-img6:hover{
+    scale: 102%;
+}
+.cars-img5:hover{
+    scale: 102%;
+}
+.cars-img4:hover{
+    scale: 102%;
+}
+.cars-img3:hover{
+    scale: 102%;
+}
+.cars-img2:hover{
+    scale: 102%;
+}
+.cars-img1:hover{
+    scale: 102%;
+}
